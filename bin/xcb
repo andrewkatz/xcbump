@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+require 'slop'
+
+xcbump = Xcbump::Bump.new
+
+Slop.parse do |o|
+  o.on '-c', '--configure' do
+    xcbump.configure
+  end
+
+  o.on '-m', '--major' do
+    xcbump.bump_version(:major)
+  end
+
+  o.on '-n', '--minor' do
+    xcbump.bump_version(:minor)
+  end
+
+  o.on '-p', '--patch' do
+    xcbump.bump_version(:patch)
+  end
+
+  o.on '-b', '--build' do
+    xcbump.bump_version(:build)
+  end
+end
