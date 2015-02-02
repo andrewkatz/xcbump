@@ -1,4 +1,4 @@
-# Xcbump
+# Xcbump [![Gem Version](https://badge.fury.io/rb/xcbump.svg)](http://badge.fury.io/rb/xcbump)
 
 Increments the version and build numbers for an Xcode project. Uses semantic versioning for both
 numbers. This is also based on a versioning scheme we use in the build version number, where the
