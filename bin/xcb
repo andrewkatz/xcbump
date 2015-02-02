@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'slop'
+require 'xcbump'
 
 xcbump = Xcbump::Bump.new
 

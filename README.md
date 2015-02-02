@@ -1,6 +1,6 @@
 # Xcbump
 
-Bumps the version and build numbers for an Xcode project. Uses semantic versioning for both
+Increments the version and build numbers for an Xcode project. Uses semantic versioning for both
 numbers. This is also based on a versioning scheme I use in the build version number, where the
 fourth digit signifies the build number.
 
