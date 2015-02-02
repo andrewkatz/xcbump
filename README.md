@@ -1,7 +1,7 @@
 # Xcbump
 
 Increments the version and build numbers for an Xcode project. Uses semantic versioning for both
-numbers. This is also based on a versioning scheme I use in the build version number, where the
+numbers. This is also based on a versioning scheme we use in the build version number, where the
 fourth digit signifies the build number.
 
 ## Installation
@@ -59,7 +59,7 @@ Bump build version:
 
 ## Contributing
 
-1. Fork it ( https://github.com/andrewkatz/xcbump/fork )
+1. Fork it ( https://github.com/greenbits/xcbump/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
