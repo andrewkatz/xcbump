@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = 'xcbump'
   spec.version       = Xcbump::VERSION
   spec.authors       = ['Andrew Katz']
-  spec.email         = ['andrewkatz00@gmail.com']
+  spec.email         = ['andrew@greenbits.com']
   spec.summary       = %q{Xcbump}
   spec.description   = %q{Increments the version and build numbers for an Xcode project.}
-  spec.homepage      = 'https://github.com/andrewkatz/xcbump'
+  spec.homepage      = 'https://github.com/greenbits/xcbump'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
