@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'slop', '~> 4.0.0'
   spec.add_dependency 'plist', '~> 3.1.0'
-  spec.add_dependency 'highline', '~> 1.6.21'
+  spec.add_dependency 'highline', '~> 1.7.2'
 
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
